@@ -10,6 +10,7 @@
     "gatsby-plugin-postcss": "2.3.6",
     "gatsby-plugin-react-helmet": "3.3.8",
     "gatsby-plugin-sharp": "2.6.14",
+    "lint-staged": "^10.2.11",
     "prop-types": "15.7.2",
     "react": "16.13.1",
     "react-dom": "16.13.1",
@@ -48,6 +49,7 @@
     "eslint-plugin-import": "2.22.0",
     "eslint-plugin-react": "7.20.1",
     "gatsby-plugin-eslint": "2.0.8",
+    "husky": "^4.2.5",
     "prettier": "2.0.5",
     "tailwindcss": "1.4.6"
   },
