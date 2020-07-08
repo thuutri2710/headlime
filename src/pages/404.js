@@ -1,24 +1,23 @@
 import React from "react";
 
-import Layout from "../components/layout";
-import SEO from "../components/seo";
-import abductionIllustration from "../images/abduction-illustration.svg";
+import Form from "../components/form";
+
+
+// function handleOnClick(){
+//   console.log("click");
+// }
+
+function handleOnChange(event){
+  console.log(event.target.value);
+}
 
 function NotFoundPage() {
   return (
-    <Layout>
-      <SEO title="404: Not found" />
-      <div>
-        <img
-          alt="Ghost getting abducted by aliens"
-          className="block mx-auto w-1/2"
-          src={abductionIllustration}
-        />
-        <h2 className="bg-yellow-400 text-2xl font-bold inline-block my-8 p-3">
-          Looks like this page is a ghost that got abducted by aliens...
-        </h2>
+    <div className="w-full bg-blue-100 bg-opacity-25">
+      <div className="grid grid-cols-2 gap-20 w-8/12 mx-auto h-screen">
+        <Form onClick='' onChange={handleOnChange}/>
       </div>
-    </Layout>
+    </div>
   );
 }
 
