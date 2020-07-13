@@ -14,7 +14,7 @@ function Header() {
   // `);
 
   return (
-    <header className="flex flex-wrap items-center justify-between max-w-6xl mx-auto my-8 w-full">
+    <header className="flex flex-wrap items-center justify-between max-w-6xl mx-auto mt-4 md:my-8 w-full">
       <img
         src={headlime}
         width="150"
@@ -26,8 +26,8 @@ function Header() {
         alt="Headlime - Create headlines like copywriting experts | Product Hunt Embed"
         width="250px"
         height="54px"
+        className="hidden md:block"
         style={{ width: "250px", height: "54px" }}
-        data-v-2743b535=""
       />
     </header>
   );

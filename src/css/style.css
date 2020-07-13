@@ -1,29 +1,34 @@
 /*! purgecss start ignore */
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@1,300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@1,300&display=swap");
 @tailwind base;
 @tailwind components;
 /*! purgecss end ignore */
 @tailwind utilities;
 
+html {
+  font-family: Source Sans Pro, -apple-system, BlinkMacSystemFont, Segoe UI,
+    Roboto, Helvetica Neue, Arial, sans-serif;
+  word-spacing: 1px;
+}
 
-
-html{
-    font-family:Source Sans Pro,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,sans-serif;
+* {
+  box-sizing: border-box;
+  border: 0 solid;
 }
 
 .li-item {
-    position: relative;
+  position: relative;
 }
 
 .li-item::before {
-    content: "";
-    width: 17px;
-    height: 13px;
-    left: -4px;
-    top: 7px;
-    position: absolute;
-    background-image: url(../images/tick.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: 50%;
+  content: "";
+  width: 17px;
+  height: 13px;
+  left: -4px;
+  top: 7px;
+  position: absolute;
+  background-image: url(../images/tick.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: 50%;
 }

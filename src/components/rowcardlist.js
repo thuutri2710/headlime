@@ -6,16 +6,22 @@ import icon_4 from "../images/icon_4.svg";
 
 function RowCardList() {
   return (
-    <section className="w-full flex justify-center items-center flex-col mb-16 px-4">
-      <h1 className="text-4xl font-bold text-white text-center mb-8">
+    <section className="container flex justify-center items-center flex-col mb-16 px-4 md:px-8">
+      <h1 className="text-2xl md:text-4xl font-semibold text-white text-center mb-8">
         6 reasons why you should buy Headlime right now:
       </h1>
-      <div className="w-10/12 grid grid-cols-2 row-gap-10 col-gap-8">
+      <div className="flex flex-wrap">
         <Card
           type="row"
           src={icon_3}
           header="Your headline is the first thing your visitors see"
           content="Within a split-second, people decide if they close your site - or click and spend a few more seconds checking out what you have to offer. Your ad, landing page, article, or email could be so good, but if your headline sucks, people will leave and won’t even see your offer."
+        />
+        <Card
+          type="row"
+          src={icon_4}
+          header="Master the skill of writing converting headlines"
+          content="As a marketer, it’s critical to master the skill of writing attention-grabbing headlines. Great headlines create curiosity, excitement, and enthusiasm to click or continue. A headline can literally make - or break - your business. You only have one shot to succeed."
         />
         <Card
           type="row"
@@ -28,12 +34,6 @@ function RowCardList() {
           src={icon_4}
           header="You will get more clicks, sales and conversions"
           content="Our proven headlines are optimized and a/b tested for increased conversion and open-rates. We’ve tested them and saw stunning results, some even doubling their conversion rates. You will notice the results right away after implementing."
-        />
-        <Card
-          type="row"
-          src={icon_4}
-          header="Master the skill of writing converting headlines"
-          content="As a marketer, it’s critical to master the skill of writing attention-grabbing headlines. Great headlines create curiosity, excitement, and enthusiasm to click or continue. A headline can literally make - or break - your business. You only have one shot to succeed."
         />
         <Card
           type="row"
