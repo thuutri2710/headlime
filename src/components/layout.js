@@ -11,6 +11,9 @@ import ColCardList from "../components/colcardlist";
 import RowCardList from "../components/rowcardlist";
 import Guide from "../components/guide";
 import Video from "../components/video";
+import VideoFirst from "../videos/vid_1.mp4";
+import VideoSecond from "../videos/vid_2.mp4";
+import VideoThird from "../videos/vid_3.mp4";
 
 function Layout() {
   return (
@@ -41,7 +44,7 @@ function Layout() {
               </button>
             </div>
             <div className="w-full md:w-3/5">
-              <Video src="http://headlime.io/_nuxt/videos/c644194.mp4" />
+              <Video src={VideoFirst} />
             </div>
           </div>
         </section>
@@ -51,7 +54,7 @@ function Layout() {
         <section className="w-full mb-12 mt-32">
           <div className="container flex flex-col md:flex-row px-4 md:px-16 mx-auto">
             <div className="w-full md:w-1/2 flex items-center justify-center mb-8 lg:mb-0">
-              <Video src="http://headlime.io/_nuxt/videos/4be468a.mp4" />
+              <Video src={VideoSecond} />
             </div>
             <div className="w-full md:w-1/2 flex items-center justify-center px-2 md:px-0 lg:ml-16">
               <Guide
@@ -68,7 +71,7 @@ function Layout() {
         <section className="w-full mb-20">
           <div className="container flex flex-col-reverse md:flex-row px-4 md:px-16 mx-auto">
             <div className="w-full md:w-1/2 flex items-center justify-center mb-8 lg:mb-0">
-              <Video src="http://headlime.io/_nuxt/videos/4be468a.mp4" />
+              <Video src={VideoThird} />
             </div>
             <div className="w-full md:w-1/2 flex items-center justify-center px-2 md:px-0 lg:order-first lg:mr-16">
               <Guide
