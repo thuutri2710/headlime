@@ -6,7 +6,7 @@ import icon_4 from "../images/icon_4.svg";
 
 function RowCardList() {
   return (
-    <section className="container flex justify-center items-center flex-col mb-16 px-4 md:px-0">
+    <section className="container flex justify-center items-center flex-col mb-16 px-4 md:px-8">
       <h1 className="text-2xl md:text-4xl font-semibold text-white text-center mb-8">
         6 reasons why you should buy Headlime right now:
       </h1>
@@ -19,6 +19,12 @@ function RowCardList() {
         />
         <Card
           type="row"
+          src={icon_4}
+          header="Master the skill of writing converting headlines"
+          content="As a marketer, it’s critical to master the skill of writing attention-grabbing headlines. Great headlines create curiosity, excitement, and enthusiasm to click or continue. A headline can literally make - or break - your business. You only have one shot to succeed."
+        />
+        <Card
+          type="row"
           src={icon_2}
           header="You will waste less time on creating headlines"
           content="Stop staring at your screen for hours every time you need a headline. Open the blueprint, navigate to the type of headline you need and choose the one which fits best. The Headline Formulas book will earn itself back by your first headline."
@@ -28,12 +34,6 @@ function RowCardList() {
           src={icon_4}
           header="You will get more clicks, sales and conversions"
           content="Our proven headlines are optimized and a/b tested for increased conversion and open-rates. We’ve tested them and saw stunning results, some even doubling their conversion rates. You will notice the results right away after implementing."
-        />
-        <Card
-          type="row"
-          src={icon_4}
-          header="Master the skill of writing converting headlines"
-          content="As a marketer, it’s critical to master the skill of writing attention-grabbing headlines. Great headlines create curiosity, excitement, and enthusiasm to click or continue. A headline can literally make - or break - your business. You only have one shot to succeed."
         />
         <Card
           type="row"

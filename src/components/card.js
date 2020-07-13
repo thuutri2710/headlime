@@ -14,7 +14,7 @@ function Card(props) {
       className={`w-full flex ${
         props.type == "col"
           ? "flex-col md:w-1/3 mb-8 md:mb-0"
-          : "flex-col md:flex-row w-full md:w-1/2 mb-8"
+          : "flex-col md:flex-row w-full md:w-1/2 mb-8 md:px-4"
       }`}
     >
       <img
@@ -23,7 +23,7 @@ function Card(props) {
       ></img>
       <div
         className={`flex flex-col ${
-          props.type == "col" ? "text-center px-4 mt-3" : "text-left"
+          props.type == "col" ? "text-center px-4 mt-3" : "text-left md:px-4"
         }`}
       >
         <h2
