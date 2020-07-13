@@ -53,7 +53,7 @@ function Layout() {
             <div className="w-full md:w-1/2 flex items-center justify-center mb-8 lg:mb-0">
               <Video src="http://headlime.io/_nuxt/videos/4be468a.mp4" />
             </div>
-            <div className="w-full md:w-1/2 flex items-center justify-center px-2 md:px-0 lg:ml-16">
+            <div className="w-full md:w-1/2 flex items-center justify-center px-2 md:px-0">
               <Guide
                 title="Easily generate hundreds of headlines"
                 content="Copy the title that fits best, insert your details and go live. It’s that easy!"
@@ -67,10 +67,7 @@ function Layout() {
         </section>
         <section className="w-full mb-20">
           <div className="container flex flex-col-reverse md:flex-row px-4 md:px-16 mx-auto">
-            <div className="w-full md:w-1/2 flex items-center justify-center mb-8 lg:mb-0">
-              <Video src="http://headlime.io/_nuxt/videos/4be468a.mp4" />
-            </div>
-            <div className="w-full md:w-1/2 flex items-center justify-center px-2 md:px-0 lg:order-first lg:mr-16">
+            <div className="w-full md:w-1/2 flex items-center justify-center px-2 md:px-0">
               <Guide
                 title="Export your titles or save them for later"
                 content="Need a new headline for your next campaign? Get started in seconds by loading projects you worked on."
@@ -79,6 +76,9 @@ function Layout() {
                   `Easy to reuse for your next campaign`,
                 ]}
               />
+            </div>
+            <div className="w-full md:w-1/2 flex items-center justify-center mb-8 lg:mb-0">
+              <Video src="http://headlime.io/_nuxt/videos/4be468a.mp4" />
             </div>
           </div>
         </section>
