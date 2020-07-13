@@ -6,11 +6,11 @@ import icon_4 from "../images/icon_4.svg";
 
 function RowCardList() {
   return (
-    <section className="w-full flex justify-center items-center flex-col mb-16 px-4">
-      <h1 className="text-4xl font-bold text-white text-center mb-8">
+    <section className="container flex justify-center items-center flex-col mb-16 px-4 md:px-0">
+      <h1 className="text-2xl md:text-4xl font-semibold text-white text-center mb-8">
         6 reasons why you should buy Headlime right now:
       </h1>
-      <div className="w-10/12 grid grid-cols-2 row-gap-10 col-gap-8">
+      <div className="flex flex-wrap">
         <Card
           type="row"
           src={icon_3}

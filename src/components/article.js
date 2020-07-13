@@ -4,8 +4,8 @@ import Fig2 from "../images/fig_2.jpg";
 
 function Article() {
   return (
-    <section className="w-full flex justify-center items-center mb-12">
-      <article className="max-w-3xl mx-auto bg-gray-900 px-24 border-2 border-blue-700 py-10 text-white">
+    <section className="container flex justify-center items-center mb-12 px-2 md:px-0">
+      <article className="max-w-3xl mx-auto bg-gray-900 p-4 md:px-24 md:py-10 border-2 border-blue-700 text-white">
         <h1 className="text-2xl font-semibold text-center mb-4">
           Have you ever had that moment where you stare at your screen, just
           trying to think of a good headline for your email, website or
@@ -37,8 +37,11 @@ function Article() {
           rates!
         </p>
         <figure className="mb-4">
-          <img src={Fig1} alt="Figure_1" className="w-full"/>
-          <figcaption className="text-sm text-gray-500 font-normal italic">Screenshot of one of the experiments I performed with our new headlines.</figcaption>
+          <img src={Fig1} alt="Figure_1" className="w-full" />
+          <figcaption className="text-sm text-gray-500 font-normal italic">
+            Screenshot of one of the experiments I performed with our new
+            headlines.
+          </figcaption>
         </figure>
         <p className="mb-4 text-gray-300">
           The headline on this landing page was obviously tested too with this
@@ -46,7 +49,9 @@ function Article() {
         </p>
         <figure className="mb-4">
           <img src={Fig2} alt="Figure_2" className="w-full" />
-          <figcaption className="text-sm text-gray-500 font-normal italic">The best headline had a 29% CTR and 13.5% conversion rate!</figcaption>
+          <figcaption className="text-sm text-gray-500 font-normal italic">
+            The best headline had a 29% CTR and 13.5% conversion rate!
+          </figcaption>
         </figure>
         <p className="mb-4 text-gray-300">
           Quickly, word spread around town, and a few co-workers asked me if I
@@ -60,9 +65,9 @@ function Article() {
           Why keep all those headline formulas for myself if any marketer could
           benefit from this? From now on, you can stop wasting time on writing
           headlines that don’t convert. Pick one of the headline formulas and
-          give it a try! I&apos;m confident that your profit, sales, and number of
-          customers will improve. That&apos;s why I even offer a money back guarantee
-          if you don&apos;t see any positive results.
+          give it a try! I&apos;m confident that your profit, sales, and number
+          of customers will improve. That&apos;s why I even offer a money back
+          guarantee if you don&apos;t see any positive results.
         </p>
       </article>
     </section>

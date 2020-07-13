@@ -1,10 +1,9 @@
 import React from "react";
-import PropTypes from 'prop-types';
+import PropTypes from "prop-types";
 
 Video.propTypes = {
-    src: PropTypes.string
-}
-
+  src: PropTypes.string,
+};
 
 function Video(props) {
   return (
@@ -14,10 +13,7 @@ function Video(props) {
       loop="loop"
       className="rounded border border-gray-800"
     >
-      <source
-        src={props.src}
-        type="video/mp4"
-      />
+      <source src={props.src} type="video/mp4" />
     </video>
   );
 }
